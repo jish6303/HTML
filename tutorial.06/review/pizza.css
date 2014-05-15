@@ -1,0 +1,144 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Review Assignment
+
+   Pizza Order Style Sheet
+   Author: Jiaju Shen
+   Date: 4/9/2014  
+
+   Filename:         pizza.css
+   Supporting Files: delivery.png, okay.png, warning.png
+
+*/
+form fieldset {
+	background-color: rgb(255,246,205);
+	border: 1px solid rgb(233,69,0);
+	float: left;
+	margin: 1% 1% 1% 1%;
+}
+
+form fieldset#custInfo {
+	float: left;
+	width: 35%;
+}
+#address {
+	height: 100px;
+}
+
+form fieldset#buildPizza {
+	float: left;
+	width: 60%;
+}
+#sizeimage {
+	margin-left: 40%;
+}
+#size {
+	width: 200px;
+}
+#crust {
+	float: left;
+	font-size: .8em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 150px;
+}
+#quantity {
+	width: 40px;
+}
+fieldset#meat {
+	float: left;
+	width: 47%;
+	background-color: rgb(237, 178, 174);
+}
+
+#optionGroup {
+	float: left;
+}
+
+form fieldset#vegetables {
+	width: 47%;
+	background-color: rgb(237, 178, 174);
+}
+
+legend {
+	font-size: .9em;
+}
+
+label {
+	display: block;
+	font-size: .8em;
+	float: left;
+	clear: left;
+	width: 40%;
+	padding-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+input {
+	display: block;
+	float: left;
+	width: 50%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+textarea {
+	float: left;
+	display: block;
+	width: 50%;
+	height: 100px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+img {
+	display: block;
+	float: left;
+
+}
+
+fieldset.optionGroup {
+	width: 50%;
+	border: none;
+	background: none;
+	float: left;
+
+}
+fieldset.optionGroup input[type="radio"] {
+	display: block;
+	float: left;
+	width: 30px;
+
+}
+input[type="checkbox"] {
+	width: 20px;
+}
+input[type="submit"] {
+	width: 150px;
+	float: none;
+	margin: auto;
+
+}
+*:focus {
+	background-color: rgb(220,255,220);
+}
+
+input:focus:valid {
+	background: rgb(220, 255, 220) url(okay.png) bottom right no-repeat;
+
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+input:focus:invalid {
+	background: rgb(255, 232, 233) url(warning.png) bottom right no-repeat;
+
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+
+}
+

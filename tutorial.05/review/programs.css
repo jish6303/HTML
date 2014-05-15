@@ -1,0 +1,79 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+   Review Assignment
+
+   Programming Table Style Sheet
+   Author: Jiaju Shen
+   Date: 3/28/2014  
+
+   Filename:         programs.css
+   Supporting Files: 
+
+*/
+table.programs                                   {
+        width: 100%;
+		border: 2px outset black;
+        font: Trebuchet MS, Arial, Veranda, sans-serif;
+        border-collapse: collapse;
+}
+table.programs caption                           {
+        caption-side: bottom;
+        text-align: left;
+        font-size: 0.8em;
+}
+table.programs thead th                          {
+        font-size: 0.7em;
+        vertical-align: top;
+        height: 25px;
+        border-bottom: solid 1px;
+        border-color: gray;
+        }
+table.programs tbody td                          {
+        font-size: 0.7em;
+        vertical-align: top;
+        border-left: solid 1px;
+        border-bottom: solid 1px;
+        border-color: gray;
+        height: 25px;
+}
+table.programs tbody th                          {
+        font-size: 0.7em;
+        vertical-align: top;
+        border-bottom: solid 1px;
+        border-color: gray;
+        height: 25px;
+}
+table.programs thead                             {
+        color: white;
+        background-color: rgb(105, 177, 60);
+}
+       
+table.programs col.timeColumn                    {
+        width: 10%;
+        background-color: rgb(215, 205, 151);       
+}
+table.programs col.wDayColumns                    {
+        width: 11%;
+		background-color: rgb(236, 255, 211);
+}
+table.programs col.wEndColumns                    {
+        width: 17%;
+		background-color:rgb(255, 231, 255);
+}
+
+#topleft                                         {
+        background-color: rgb(105,177,60);
+        background-image: url(topleft.jpg);
+        background-repeat: no-repeat;
+}
+#topright                                        {
+        background-color: rgb(105,177,60);
+        background-image: url(topright.jpg);
+        background-repeat: no-repeat;
+        background-position: top right;
+}
+#intro p{
+
+}
+
